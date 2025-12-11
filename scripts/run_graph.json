@@ -1,0 +1,8 @@
+{
+  "graph_id": "sample_graph",
+  "initial_state": {
+    "text": "FastAPI is a modern framework...",
+    "chunk_size": 50,
+    "max_summary_length": 150
+  }
+}

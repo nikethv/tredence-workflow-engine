@@ -1,0 +1,11 @@
+{
+  "graph_id": "sample_graph",
+  "start_node": "split_text",
+  "nodes": [
+    {"name": "split_text", "function": "split_text", "next_node": "summarize_chunks"},
+    {"name": "summarize_chunks", "function": "summarize_chunks", "next_node": "merge_summaries"},
+    {"name": "merge_summaries", "function": "merge_summaries", "next_node": "refine_summary"},
+    {"name": "refine_summary", "function": "refine_summary", "next_node": "check_summary_length"},
+    {"name": "check_summary_length", "function": "check_summary_length", "next_node": null}
+  ]
+}
